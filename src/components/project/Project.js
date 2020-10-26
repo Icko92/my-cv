@@ -46,6 +46,24 @@ export default function Project() {
           dots: true,
         },
       },
+      {
+        breakpoint: 3860,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 1366,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
     ],
   };
   console.log(data);

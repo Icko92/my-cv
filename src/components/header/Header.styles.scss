@@ -115,3 +115,36 @@
     color: white;
   }
 }
+
+//4k
+@media (min-width: 1922) and (max-width: 3840px) {
+  .header {
+    height: 200px;
+    .name {
+      font-size: 4rem;
+    }
+    .logo {
+      width: 130px;
+      height: 130px;
+    }
+    .navigation {
+      font-size: 3rem;
+    }
+  }
+}
+//Full HD
+@media (min-width: 1500) and (max-width: 1920px) {
+  .header {
+    height: 100px;
+    .name {
+      font-size: 2vw;
+    }
+    .logo {
+      width: 100px;
+      height: 100px;
+    }
+    .navigation {
+      font-size: 1.7vw;
+    }
+  }
+}

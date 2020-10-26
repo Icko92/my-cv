@@ -66,3 +66,60 @@
     }
   }
 }
+
+@media (max-width: 360px) {
+  .project-card {
+    width: 95%;
+    margin: 20px auto;
+    height: 320px;
+    &:hover {
+      width: 95%;
+      height: 320px;
+      box-shadow: 0px 0px 5px 5px rgba(0, 175, 239, 0.2);
+    }
+    img {
+      height: 110px;
+      margin: 15px 0px;
+    }
+    .card-title {
+      letter-spacing: 2px;
+      font-size: 1.1rem;
+      margin-bottom: 60px;
+    }
+    .visit {
+      width: 90%;
+      height: 30px;
+      font-size: 1rem;
+      letter-spacing: 4px;
+    }
+  }
+}
+
+@media (min-width: 1921px) and(max-width: 3840px) {
+  .project-card {
+    width: 40%;
+    margin-bottom: 250px;
+    height: 600px;
+    &:hover {
+      width: 42%;
+      margin: 20px auto;
+      box-shadow: 0px 0px 25px 10px rgba(0, 175, 239, 0.5);
+    }
+  }
+}
+@media (min-width: 1500px) and (max-width: 1920px) {
+  .project-card {
+    width: 50%;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    height: 500px;
+    &:hover {
+      width: 52%;
+      margin-left: 150px;
+      box-shadow: 0px 0px 25px 10px rgba(0, 175, 239, 0.5);
+    }
+    .card-title {
+      margin-bottom: 150px;
+    }
+  }
+}

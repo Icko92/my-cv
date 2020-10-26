@@ -44,3 +44,58 @@
     }
   }
 }
+
+@media (max-width: 360px) {
+  .project {
+    .slider-wrap {
+      width: 100%;
+      padding: 0px 80px;
+    }
+  }
+}
+
+@media (min-width: 1922px) and (max-width: 3840px) {
+  .project {
+    .slider-wrap {
+      .slick-prev::before {
+        font-size: 140px;
+      }
+      .slick-next::before {
+        font-size: 140px;
+      }
+    }
+    .slick-dots {
+      li {
+        margin: 20px 50px;
+      }
+      button::before {
+        color: $primary-color;
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1920px) {
+  .project {
+    .slider-wrap {
+      width: 85%;
+      margin-left: 100px;
+      .slick-prev::before {
+        font-size: 120px;
+      }
+      .slick-next::before {
+        font-size: 120px;
+      }
+    }
+    .slick-dots {
+      li {
+        margin: 10px 30px;
+      }
+      button::before {
+        color: $primary-color;
+        font-size: 30px;
+      }
+    }
+  }
+}

@@ -11,3 +11,77 @@
     padding: 0px;
   }
 }
+
+@media (min-width: 1921px) and (max-width: 3860px) {
+  .qualification {
+    padding: 100px 600px;
+    .qualification-segment {
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 60px;
+      justify-content: center;
+      .qualification-name-year {
+        width: 45%;
+        .name {
+          font-size: 1vw;
+          text-align: right;
+          margin-bottom: 40px;
+          width: auto;
+        }
+        .year {
+          font-size: 0.8vw;
+        }
+      }
+      .qualification-divider {
+        width: 10%;
+        height: 150px;
+      }
+      .qualification-title-description {
+        width: 45%;
+        .title {
+          font-size: 0.9vw;
+          width: 30%;
+        }
+        .description {
+          font-size: 0.8vw;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1500px) and (max-width: 1920px) {
+  .qualification {
+    padding: 100px 600px;
+    .qualification-segment {
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 60px;
+      justify-content: center;
+      .qualification-name-year {
+        width: 45%;
+        .name {
+          font-size: 1.6vw;
+          text-align: right;
+          margin-bottom: 40px;
+        }
+        .year {
+          font-size: 1.2vw;
+        }
+      }
+      .qualification-divider {
+        width: 10%;
+        height: 150px;
+      }
+      .qualification-title-description {
+        width: 45%;
+        .title {
+          font-size: 1.3vw;
+          width: 100%;
+        }
+        .description {
+          font-size: 1.2vw;
+        }
+      }
+    }
+  }
+}

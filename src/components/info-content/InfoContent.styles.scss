@@ -41,3 +41,15 @@
     width: 80%;
   }
 }
+
+@media (max-width: 360px) {
+  .info-photo {
+    margin-top: 30px;
+    width: 260px;
+    height: 260px;
+  }
+  .info-content {
+    position: static;
+    width: 85%;
+  }
+}

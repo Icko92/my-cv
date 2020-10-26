@@ -114,3 +114,40 @@
     width: 100%;
   }
 }
+
+@media (max-width: 360px) {
+  .qualification-segment {
+    width: 95%;
+    margin: 0 auto;
+    height: 140px;
+
+    .qualification-name-year {
+      width: 45%;
+
+      .name {
+        width: 100%;
+        font-size: 4.5vw;
+      }
+      .year {
+        width: 100%;
+      }
+    }
+    .qualification-divider {
+      width: 10%;
+      margin: 0px;
+      padding: 0px;
+      height: 80px;
+      margin-top: 20px;
+    }
+    .qualification-title-description {
+      width: 45%;
+      .title {
+        width: 100%;
+        font-size: 4.5vw;
+      }
+      .description {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -10,7 +10,66 @@
   padding-bottom: 50px;
 }
 
-// @media (min-width: 320px) and (max-width: 480px) {
-//   .skills {
-//   }
-// }
+@media (max-width: 360px) {
+  .skills {
+    padding-bottom: 0px;
+  }
+}
+
+@media (min-width: 1921px) and (max-width: 3860px) {
+  .skills {
+    padding-bottom: 300px;
+    .skill {
+      height: 200px;
+      padding: 140px 200px;
+      .skill-name-wrap {
+        width: 60%;
+        img {
+          width: 25%;
+        }
+        .skill-name {
+          font-size: 1.5vw;
+          letter-spacing: 20px;
+          margin-left: 50px;
+        }
+      }
+      .skill-value-wrap {
+        height: 80px;
+        width: 50%;
+        .skill-value {
+          height: 20px;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1920px) {
+  .skills {
+    padding-bottom: 300px;
+    .skill {
+      height: 200px;
+      padding: 120px 80px;
+      .skill-name-wrap {
+        width: 50%;
+        img {
+          width: 20%;
+        }
+        .skill-name {
+          font-size: 1.5vw;
+          letter-spacing: 10px;
+          margin-left: 10px;
+        }
+      }
+      .skill-value-wrap {
+        width: 45%;
+        height: 40px;
+        .skill-value {
+          height: 15px;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}
