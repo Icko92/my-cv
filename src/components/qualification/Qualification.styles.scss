@@ -1,0 +1,13 @@
+.qualification {
+  background-color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  padding: 0px 100px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .qualification {
+    padding: 0px;
+  }
+}

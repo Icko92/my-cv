@@ -1,0 +1,16 @@
+@import "../../App.scss";
+
+.skills {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+// @media (min-width: 320px) and (max-width: 480px) {
+//   .skills {
+//   }
+// }

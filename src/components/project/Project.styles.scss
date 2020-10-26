@@ -1,0 +1,46 @@
+@import "../../App.scss";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.project {
+  background-color: black;
+  .slider-wrap {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    padding: 100px;
+
+    .slick-arrow {
+      width: 40px;
+      margin: 0px -50px;
+    }
+    .slick-arrow::before {
+      color: $primary-color;
+    }
+
+    .slick-prev::before {
+      font-size: 40px;
+    }
+    .slick-next::before {
+      font-size: 40px;
+    }
+
+    .slick-dots {
+      background-color: black;
+
+      button::before {
+        margin-top: 5px;
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .project {
+    .slider-wrap {
+      width: 100%;
+      padding: 0px 100px;
+    }
+  }
+}

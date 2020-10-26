@@ -1,0 +1,9 @@
+@import "../../App.scss";
+.info-photo {
+  width: 300px;
+  height: 300px;
+  color: black;
+  background-image: url("../../images/portrait.jpg");
+  background-size: cover;
+  border-radius: 20px;
+}
